@@ -17,6 +17,10 @@ const closeButton = document.getElementById("close-button");
 const playlistSongs = document.getElementById("playlist-songs");
 const currentProgress = document.getElementById("current-progress");
 
+module.exports = {
+    devtool: "source-map",
+}
+
 //index for songs
 let index;
 
