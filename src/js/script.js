@@ -1,7 +1,3 @@
-module.exports = {
-    devtool: "source-map",
-}
-
 const prevButton = document.getElementById("prev");
 const nextButton = document.getElementById("next");
 const repeatButton = document.getElementById("repeat");
@@ -20,7 +16,6 @@ const playlistContainer = document.getElementById("playlist-container");
 const closeButton = document.getElementById("close-button");
 const playlistSongs = document.getElementById("playlist-songs");
 const currentProgress = document.getElementById("current-progress");
-
 
 //index for songs
 let index;
