@@ -1,0 +1,173 @@
+body {
+  height: 100vh;
+  background: linear-gradient(to bottom, #00aa25 50%, #16191e 50%);
+}
+
+.music-player {
+  font-size: 16px;
+  width: 80vw;
+  max-width: 25em;
+  background-color: #0c0c0c6b;
+  padding: 3em 1.8em;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 0.5em;
+  box-shadow: 0.6em 1.2em 3em rgba(0, 0, 0, 0.25);
+}
+
+img {
+  width: 100%;
+  margin-top: 1.25em;
+}
+
+#playlist {
+  float: right;
+}
+
+.song-details {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+.song-details #song-name {
+  color: #eeeeee;
+  font-size: 1.3em;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+
+.song-details #song-artist {
+  Color: #949494;
+  font-size: 0.8em;
+}
+
+.player-options {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 1.25em;
+  margin: 1.25em 0 0.6em 0;
+}
+
+.music-player button {
+  border: none;
+  background-color: transparent;
+}
+
+#play,
+#pause {
+  height: 2.5em;
+  width: 2.5em;
+  font-size: 1.8em;
+  background-color: #ffffff;
+  color: #080808;
+  border-radius: 50%;
+}
+
+#prev,
+#next {
+  color: #ffffff;
+  font-size: 1.4em;
+}
+
+#shuffle,
+#repeat {
+  color: #949494;
+  font-size: 1em;
+}
+
+.hide {
+  display: none;
+}
+
+#progress-bar {
+  position: relative;
+  width: 100%;
+  height: 0.3em;
+  background-color: #5c5a5a;
+  margin: 1em 0;
+  border-radius: 0.18em;
+  cursor: pointer;
+}
+
+#current-progress {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: inline-block;
+  height: 100%;
+  width: 20%;
+  background-color: #ffffff;
+  border-radius: 0.18em;
+}
+
+.time-container {
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Roboto Mono", monospace;
+}
+
+#playlist-container {
+  background-color: #a8a8a8;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 0.6em;
+  padding: 2em 1em;
+  font-family: "Poppins", sans-serif;
+}
+
+#close-button {
+  background-color: transparent;
+  border: none;
+  height: 2em;
+  width: 2em;
+  cursor: pointer;
+  margin-left: 90%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  margin: 1em 0;
+  cursor: pointer;
+}
+
+
+.playlist-song-details {
+  margin-left: 1em;
+}
+
+.playlist-song-details>span {
+  display: block;
+}
+
+#playlist-song-artist-album {
+  color: #292525;
+  font-size: 0.8em;
+}
+
+button.active i {
+  color: #2887e3;
+}
+
+@media screen and (max-width: 450px) {
+  .music-player {
+    font-size: 14px;
+  }
+}
+
+.playlist-image-container {
+  width: 3em;
+}
