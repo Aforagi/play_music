@@ -28,37 +28,37 @@ const songsList = [
     name: "Sunflower",
     link: "./src/sounds/sunflower.mp3",
     artist: "Post Malone, Swae Lee",
-    image: "./src/img/sunflower.jpeg",
+    image: "./src/img/sunflower.webp",
   },
   {
     name: "Vival La Vida",
     link: "./src/sounds/viva_la_vida.mp3",
     artist: "Coldplay",
-    image: "./src/img/viva_la_vida.jpg",
+    image: "./src/img/viva_la_vida.webp",
   },
   {
     name: "Closer",
     link: "./src/sounds/closer.mp3",
     artist: "The Chainsmokers",
-    image: "./src/img/closer.jpg",
+    image: "./src/img/closer.webp",
   },
   {
     name: "Numb",
     link: "./src/sounds/numb.mp3",
     artist: "Linkin Park",
-    image: "./src/img/numb.jpg",
+    image: "./src/img/numb.webp",
   },
   {
     name: "Hey Jude",
     link: "./src/sounds/hey_jude.mp3",
     artist: "The Beatles",
-    image: "./src/img/hey_jude.jpg",
+    image: "./src/img/hey_jude.webp",
   },
   {
     name: "Reckless",
     link: "./src/sounds/reckless.mp3",
     artist: "Madison Beer",
-    image: "./src/img/reckless.jpeg",
+    image: "./src/img/reckless.webp",
   }
 ];
 
