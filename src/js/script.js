@@ -234,8 +234,9 @@ const initializePlaylist = () => {
                 </span>
             </div>
         </li>`;
-  }
+      }
 };
+
 
 //display playlist
 playlistButton.addEventListener("click", () => {
