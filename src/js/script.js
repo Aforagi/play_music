@@ -24,10 +24,10 @@ let index;
 let loop = true;
 
 const songsList = [
-  {
+ {
     name: "Sunflower",
     link: "./src/sounds/sunflower.mp3",
-    artist: "Post Malone, Swae Lee",                         
+    artist: "Post Malone, Swae Lee",                        
     image: "./src/img/sunflower.webp",
   },
   {
