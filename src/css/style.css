@@ -127,8 +127,8 @@ img {
 #close-button {
   background-color: transparent;
   border: none;
-  height: 2em;
-  width: 2em;
+  height: 4em;
+  width: 2.5em;
   cursor: pointer;
   margin-left: 90%;
 }
