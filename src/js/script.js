@@ -273,3 +273,10 @@ window.onload = () => {
   //create playlist
   initializePlaylist();
 };
+
+//hide playlist when song selected
+playlistSongs.addEventListener("click", (event) => {
+  if (event.target.tagName === "LI") {
+    document.getElementById("playlist-container").classList.add("hide");
+  }
+});
