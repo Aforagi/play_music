@@ -10,6 +10,6 @@ The brain of this website is JavaScript; here are the features on the website.
 
 # Install 
 ```
-$ git clone https://github.com/Agililham/play_music.git
+$ git clone https://github.com/Aforagi/play_music.git
 ```
 
